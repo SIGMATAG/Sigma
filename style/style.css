@@ -1,0 +1,621 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  background: url(../image/Rock_music.svg) no-repeat center/cover;
+  height: 963px;
+}
+
+.header__nav {
+  padding-top: 32px;
+}
+
+.header__nav .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-link {
+  display: flex;
+  gap: 50px;
+  background: #381ddb;
+  padding: 18px 13px;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 45px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  transition: 0.5s;
+}
+
+.header__nav-list {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.header__nav-btn {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  background: #fff;
+  padding: 18px 34px;
+  border: 2px solid #000;
+  color: var(--general-blue, #381ddb);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 45px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  transition: 0.5s;
+}
+
+.header__nav-btn:hover {
+  border-radius: 45px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.header__nav-link:hover {
+  border-radius: 45px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.header__nav-costem {
+  display: flex;
+  gap: 50px;
+}
+
+.header__music {
+  margin-top: 105px;
+}
+
+.header__music-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  transition: 0.5s;
+}
+
+.header__music-title span {
+  color: #ffa3a3;
+}
+
+.header__music-patagraf {
+  color: #fff;
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  padding: 40px 0;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__nav-list:hover {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(210, 245, 19, 1) 32%, rgba(255, 177, 67, 1) 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300% 300%;
+}
+
+.header__music-btn {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: 2px solid #000;
+  border-radius: 8px;
+  background: #fc5252;
+  padding: 18px 34px;
+  transition: 0.5s;
+}
+
+.heade__music-lorem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__music-href {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 28px;
+}
+
+.header__costem {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 122px;
+}
+
+.header__costem-title {
+  opacity: 0.4;
+  color: #fff;
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-fill-color: transparent;
+  font-family: "Montserrat";
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: 0.5s;
+}
+
+.header__music-title span:hover {
+  filter: drop-shadow(3px 3px 12px rgb(198, 225, 49));
+  background: rgb(255, 0, 0);
+  background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(210, 245, 19, 1) 32%, rgba(255, 177, 67, 1) 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header__costem-lorem {
+  transition: 0.5s;
+}
+
+.header__music-btn:hover {
+  border-radius: 45px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.header__costem-title:hover {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(210, 245, 19, 1) 32%, rgba(255, 177, 67, 1) 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300% 300%;
+  opacity: 0.7;
+  filter: drop-shadow(3px 3px 12px rgba(210, 245, 19, 1));
+}
+
+.explone-title {
+  color: #222;
+  font-family: 'Montserrat';
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  padding-top: 240px;
+}
+
+.explone-title span {
+  color: #381DDB;
+  font-family: 'Montserrat';
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.explone__music-title {
+  color: #222;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 38px;
+  padding-left: 25px;
+}
+
+.musical {
+  padding: 15px 15px 0 25px;
+}
+
+.explone__music-paragraf {
+  max-width: 190px;
+  width: 100%;
+  color: #222;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 20px 40px 25px 25px;
+}
+
+.explone__music {
+  max-width: 240px;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.explone__cotalog {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.explone__music:nth-last-of-type(3) {
+  background: #381DDB;
+  border-radius: 24px;
+}
+
+.explone__music:hover {
+  background: #381DDB;
+  border-radius: 24px;
+}
+
+.explone .container {
+  background: #fff;
+  position: relative;
+  ;
+}
+
+.absolute {
+  position: absolute;
+  top: 60%;
+  right: 0;
+  max-width: 400px;
+  width: 100%;
+  transform: rotate(45deg);
+  z-index: 0;
+  display: none;
+}
+
+.about__left-relative {
+  position: relative;
+}
+
+.absolute1 {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+}
+
+.absolute2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.About {
+  margin-top: 200px;
+}
+
+.about__right-title {
+  color: #222;
+  font-family: 'Montserrat';
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 100px;
+  line-height: 130%;
+}
+
+.about__right-paragraf {
+  color: #222;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 520px;
+  width: 100%;
+  padding-bottom: 80px;
+  padding-top: 32px;
+}
+
+.about__right-button {
+  color: var(--general-light, #FFF);
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  background: #381DDB;
+  padding: 18px 34px;
+  line-height: normal;
+  display: flex;
+  width: max-content;
+  gap: 12px;
+  align-items: center;
+  border-radius: 120px;
+  transition: 0.5s;
+}
+
+.about__right-button:hover {
+  border-radius: 45px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.about__right {
+  width: 50%;
+}
+
+.about__left {
+  width: 50%;
+}
+
+.about__us {
+  display: flex;
+  gap: 70px;
+}
+
+.explone__music:nth-of-type(1) {
+  background: #84C4FF;
+}
+
+.explone__music:nth-of-type(2) {
+  background: violet;
+}
+
+.explone__music:nth-of-type(4) {
+  background: #84C4FF;
+}
+
+.explone__music:nth-of-type(5) {
+  background: #FC5252;
+}
+
+.explone__music {
+  border-radius: 24px;
+}
+
+.sing-left {
+  padding-top: 100px;
+}
+
+.sing .container {
+  display: flex;
+  gap: 45px;
+}
+
+.sing-right {
+  padding-top: 160px;
+}
+
+.prices {
+  padding-top: 160px;
+}
+
+.prices__title {
+  color: #222;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.block__price-title {
+  color: #222;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 38px;
+}
+
+.block__price-title:nth-of-type(2) {
+  color: #222;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 15px 0 15px 0;
+}
+
+.block__price-paragraf {
+  color: #222;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.block__price-paragraf:nth-of-type(2) {
+  color: #222;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.5;
+}
+
+.block__price-paragraf:nth-of-type(3) {
+  color: #222;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.5;
+}
+
+.block__price:nth-of-type(2) .block__price-paragraf:nth-of-type(2) {
+  opacity: 1;
+}
+
+.block__price:nth-of-type(3) .block__price-paragraf:nth-of-type(2) {
+  opacity: 1;
+}
+
+.block__price:nth-of-type(3) .block__price-paragraf:nth-of-type(3) {
+  opacity: 1;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+
+}
+
+.block__price {
+  border-radius: 10px;
+  padding: 26px 100px;
+  border-top: 4px solid #222;
+}
+
+.block__price:nth-of-type(2) {
+  border-radius: 10px;
+  border-top: 4px solid #381DDB;
+}
+
+.block__price:nth-of-type(2) .block__price-title:nth-of-type(1) {
+  color: #381DDB;
+}
+
+.block__price:nth-of-type(2) .block__price-title:nth-of-type(2) {
+  color: #381DDB;
+}
+
+.block__price:nth-of-type(3) .block__price-title:nth-of-type(2) {
+  color: #FC5252;
+}
+
+.block__price:nth-of-type(3) .block__price-title:nth-of-type(1) {
+  color: #FC5252;
+}
+
+.block__price-href {
+  color: #381DDB;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding: 18px 34px;
+  border-radius: 5px;
+  border: 2px solid #381DDB;
+  transition: 0.5s;
+  border-radius: 45px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.block__price-hrefs {
+  padding-top: 30px;
+}
+
+.block__price-href:hover {
+  border-radius: 45px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: #381ddb;
+  color: #fff;
+}
+
+.footer {
+  background: #222;
+  padding: 50px 0;
+  margin-top: 77px;
+}
+
+.footer__link {
+  display: flex;
+  gap: 30px;
+}
+
+.footer__list {
+  color: var(--general-light, #FFF);
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 55px;
+}
+
+.foooter {
+  display: flex;
+  gap: 30px;
+}
+
+.lorem {
+  color: #FFF;
+  font-family: 'Raleway';
+  font-size: 20px;
+  opacity: 0.3;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.lorems {
+  display: flex;
+  align-items: center;
+}
+
+.foooter__right {
+  display: flex;
+  justify-content: space-between;
+}

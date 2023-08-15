@@ -1,0 +1,275 @@
+@media(max-width: 1080px) {
+    .explone__music {
+        max-width: 180px;
+        width: 100%;
+    }
+
+    .block__price-href {
+        border: none;
+        display: none;
+    }
+
+    .explone-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 992px) {
+    .explone__cotalog {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .about__left {
+        display: none;
+    }
+
+    .about__us {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .about__right-title {
+        padding: 0;
+    }
+
+    .header__nav .container {
+        flex-direction: column;
+    }
+
+    .header__nav-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__nav-costem {
+        padding-top: 30px;
+    }
+
+    .explone-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__costem {
+        display: none;
+    }
+}
+
+@media(max-width: 860px) {
+    .block {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sing .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__costem {
+        flex-direction: column;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .explone-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__costem {
+        display: none;
+    }
+
+    .about__right-button {
+        margin: 0 auto;
+    }
+
+    .about__right-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .block {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sing .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__costem {
+        flex-direction: column;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .explone-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__costem {
+        display: none;
+    }
+
+    .about__right-button {
+        margin: 0 auto;
+    }
+
+    .about__right-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 664px) {
+    .sing-right {
+        display: none;
+    }
+
+    .header__music-title {
+        font-size: 60px;
+    }
+
+    .header__nav-costem {
+        flex-direction: column;
+    }
+
+    .header__nav-link {
+        margin: 0 auto;
+        width: max-content;
+    }
+
+    .header__nav-btn {
+        margin: 0 auto;
+    }
+
+    .about__right-button {
+        margin: 0 auto;
+    }
+
+    .about__right-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 412px) {
+    .header__music-href {
+        display: none;
+    }
+
+    .header__music-btn {
+        display: none;
+    }
+
+    .about__right-title {
+        font-size: 28px;
+    }
+
+    .footer__list {
+        font-size: 11px;
+    }
+
+    .lorem {
+        font-size: 12px;
+    }
+
+    .header__music-patagraf {
+        font-size: 20px;
+    }
+
+    .header__music-title {
+        font-size: 45px;
+    }
+
+    .about__right-paragraf {
+        max-width: 350px;
+        width: 100%;
+    }
+
+    .lorem {
+        display: none;
+    }
+
+    .foooter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .about__right-button {
+        display: none;
+    }
+}
+
+@media(max-width: 320px) {
+    .explone-title {
+        font-size: 20px;
+    }
+
+    .explone-title span {
+        font-size: 20px;
+    }
+
+    .prices__title {
+        font-size: 20px;
+    }
+
+    .footer__list {
+        font-size: 7px;
+    }
+
+    .about__right-title {
+        font-size: 20px;
+    }
+
+    .about__right-paragraf {
+        font-size: 15px;
+    }
+
+    .about__right-button {
+        display: none;
+    }
+}
